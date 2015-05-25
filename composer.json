@@ -1,0 +1,19 @@
+{
+    "name": "frd/cflashmessage",
+    "type": "library",
+    "description": "Class for flash messages.",
+    "keywords": ["flash", "message", "flashmessage"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Paulsson",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "FRD\\": "src/" }
+    }
+}
